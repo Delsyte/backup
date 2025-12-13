@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Private Stream</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body oncontextmenu="return false">
+
+<div class="container" id="locked">
+  <h2>🔒 Private Streaming</h2>
+  <p>Link tidak valid atau sudah kadaluarsa.</p>
+</div>
+
+<div class="container hidden" id="player">
+  <video id="video" controls controlsList="nodownload noplaybackrate"
+    disablePictureInPicture>
+    <source id="videoSrc" src="" type="video/mp4">
+  </video>
+</div>
+
+<script src="assets/js/player.js"></script>
+</body>
+</html>
